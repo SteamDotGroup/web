@@ -1,9 +1,9 @@
 #Redirect to https
 RewriteEngine On
 RewriteCond %{SERVER_PORT} !^443$
+RewriteCond %{HTTP_HOST} !=localhost
+RewriteCond %{HTTP_HOST} !=127.0.0.1
 RewriteRule (.*) https://%{HTTP_HOST}/$1 [R=301,L]
-
-
 
 DirectoryIndex index.php
 
