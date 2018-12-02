@@ -1,7 +1,6 @@
 <?php
 
-function error($code) {
+function error($code)
+{
     header("Location: error.php?code=$code");
 }
-
-?>

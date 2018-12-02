@@ -1,3 +1,3 @@
 <?php
 
-echo("Error: $_GET[code]");
+echo ("Error: $_GET[code]");

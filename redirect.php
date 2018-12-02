@@ -12,7 +12,7 @@ $option = "redirect";
 //Set steamgroup name
 $sg = $args[1];
 
-if($sg == null) {
+if ($sg == null) {
     //No steamgroup given => Error
     error('No steamgroup set!');
     die();
@@ -28,4 +28,3 @@ $sg_url = $sg_base_url . $sg;
 
 //Redirect to steamgroup
 header("Location: $sg_url");
-?>
