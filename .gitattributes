@@ -1,1 +1,2 @@
+# Make all php files show as php in GitHub
 *.php linguist-language=PHP

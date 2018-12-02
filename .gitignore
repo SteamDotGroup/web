@@ -1,2 +1,5 @@
+# Ignore google verification html files
 google*
+
+# Ignore well-known folder
 *.well-known
