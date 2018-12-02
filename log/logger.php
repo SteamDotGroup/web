@@ -6,7 +6,7 @@ function analytics($sg = false)
     $ip = $_SERVER['REMOTE_ADDR'];
 
     if($ip == "127.0.0.1") {
-        die();
+        return;
     }
 
     $time = gmdate("Y-m-d H:i:s");
