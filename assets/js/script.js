@@ -2,17 +2,25 @@ window.onload = function () {
 	var de = document.getElementById("LoadingPage");
 	de.style.display = "none";
 };
-document.onkeydown = function (e) {
-	if (e.which === 123) {
-		return false;
-	}
-};
 
 (function () {
 	document.addEventListener("contextmenu", function (event) {
 		event.preventDefault()
 	});
 })();
+
+$(document).ready(function () {
+	$("[data-bs-hover-animate]")
+		.mouseenter(function () {
+			var elem = $(this);
+			elem.addClass("animated " + elem.attr("data-bs-hover-animate"));
+		})
+		.mouseleave(function () {
+			var elem = $(this);
+			elem.removeClass("animated " + elem.attr("data-bs-hover-animate"));
+		});
+});
+
 particlesJS("particles-js", {
 	particles: {
 		number: {
@@ -122,15 +130,4 @@ particlesJS("particles-js", {
 		}
 	},
 	retina_detect: true
-});
-$(document).ready(function () {
-	$("[data-bs-hover-animate]")
-		.mouseenter(function () {
-			var elem = $(this);
-			elem.addClass("animated " + elem.attr("data-bs-hover-animate"));
-		})
-		.mouseleave(function () {
-			var elem = $(this);
-			elem.removeClass("animated " + elem.attr("data-bs-hover-animate"));
-		});
 });
