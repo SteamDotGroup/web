@@ -2,12 +2,11 @@
 
 > Shortlinks for steamgroups.
 
-
 ## Usage
 
 Your steamgroup URL should look like this:
 
-    https://steamcommunity.com/groups/YourSteamGroup  
+    https://steamcommunity.com/groups/YourSteamGroup
 
 you can change that to:
 
