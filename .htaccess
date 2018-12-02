@@ -20,7 +20,6 @@ RewriteCond %{REQUEST_FILENAME} !-d
 # Push every request to index.php
 RewriteRule ^(.*)$ redirect.php [QSA]
 
-
 # Deny access to repository files
 <Files ".gitattributes">  
   Require all denied
