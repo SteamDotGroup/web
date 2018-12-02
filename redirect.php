@@ -51,7 +51,7 @@ $sg_url = $sg_base_url . $sg;
 
 </head>
 <body>
-    
+
 </body>
 </html>
 
