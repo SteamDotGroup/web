@@ -17,15 +17,31 @@ The shortener will automatically redirect you to your steamgroup!
 
 ## Bug report
 
-When you find a bug or any other behavior that you think isn't right, you can submit an issue [here](https://github.com/SteamDotGroup/web/issues/new)
+When you find a bug or any other behavior that you think isn't right, you can report that to us and the community.
 
 ### Submitting a bug report
 
-- Prefix the issue with `[Bug]`
+_To submit a bug report you can open a [Issue](https://github.com/SteamDotGroup/web/issues/new)_
+
+- Prefix the issue with `bug:`
 - Use the issue template `Bug report`
 - [x] Check that the bug is not already reported: [Issues](https://github.com/SteamDotGroup/web/issues)
 - [x] Check that there is no fix already: [Pull requests](https://github.com/SteamDotGroup/web/pulls)
 - [x] Make sure that the bug is not caused by yourself or your browser settings.
+
+## Bug fix
+
+When you fixed a bug in your local fork of this repository, you are welcome to submit it into the master branch here.  
+[Tutorial: Creating a pull request (offical GitHub docs)](https://help.github.com/articles/creating-a-pull-request/)  
+[Tutorial: Comitting (readthedocs.io)](https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/git.html)
+
+### Submitting a bug fix
+
+_To submit a bug fix you can open a [Pull request](https://github.com/SteamDotGroup/web/pulls)_
+
+- Prefix the pull request with `fix:`
+- Fill the pull request template
+- [x] Check that there is no fix already: [Pull requests](https://github.com/SteamDotGroup/web/pulls)
 
 ## Feature requests
 
@@ -35,7 +51,7 @@ We would love to hear feature requests!
 
 #### As issue
 
-- Prefix the issue with `[Feature]`
+- Prefix the issue with `feat:`
 - Use the issue template `Feature request`
 - Shortly explain what your feature is about
 - Describe why your feature idea is useful
@@ -45,7 +61,7 @@ We would love to hear feature requests!
 
 #### As pull request
 
-- Prefix the pull request with `[Feature]`
+- Prefix the pull request with `feat:`
 - Shortly explain what your feature is about
 - Describe why your feature idea is useful
 - Give a detailed description of:
