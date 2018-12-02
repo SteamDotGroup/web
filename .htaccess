@@ -1,17 +1,16 @@
-#Redirect to https
-RewriteEngine On
+# Enable apache rewrite engine
+RewriteEngine on
+
+# Redirect to https
 RewriteCond %{SERVER_PORT} !^443$
 RewriteCond %{HTTP_HOST} !=localhost
 RewriteCond %{HTTP_HOST} !=127.0.0.1
 RewriteRule (.*) https://%{HTTP_HOST}/$1 [R=301,L]
 
+# Set index
 DirectoryIndex index.php
 
-# enable apache rewrite engine
-RewriteEngine on
-
-# set your rewrite base
-# Edit this in your init method too if you script lives in a subfolder
+# Set rewrite base
 RewriteBase /
 
 # Deliver the folder or file directly if it exists on the server
@@ -22,7 +21,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ redirect.php [QSA]
 
 
-# Deny access to git files
+# Deny access to repository files
 <Files ".gitattributes">  
   Require all denied
 </Files>
