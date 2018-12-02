@@ -13,3 +13,14 @@ RewriteCond %{REQUEST_FILENAME} !-d
  
 # Push every request to index.php
 RewriteRule ^(.*)$ redirect.php [QSA]
+
+
+# Deny access to git files
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+
+order deny,allow
+deny from .git
+deny from *.md
+deny from .git*
