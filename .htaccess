@@ -16,11 +16,18 @@ RewriteRule ^(.*)$ redirect.php [QSA]
 
 
 # Deny access to git files
-<Files ~ "^\.(htaccess|htpasswd)$">
-deny from all
+<Files ".gitattributes">  
+  Require all denied
 </Files>
 
-order deny,allow
-deny from .git
-deny from *.md
-deny from .git*
+<Files "*.md">  
+  Require all denied
+</Files>
+
+<Files ".git">  
+  Require all denied
+</Files>
+
+<Files ".git*">  
+  Require all denied
+</Files>
