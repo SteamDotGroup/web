@@ -9,6 +9,7 @@
 <?php
 
 require 'utils.php';
+require './log/logger.php';
 
 $request = $_SERVER['REQUEST_URI'];
 $sg_base_url = "https://steamcommunity.com/groups/";
@@ -30,6 +31,8 @@ if ($sg == null) {
 if (count($args) > 2) {
     $option = $args[2];
 }
+
+analytics($sg);
 
 //Set full steamgroup URL
 $sg_url = $sg_base_url . $sg;
