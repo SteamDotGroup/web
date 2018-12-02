@@ -4,6 +4,11 @@ function analytics($sg = false)
 {
     $file = './log/log.html';
     $ip = $_SERVER['REMOTE_ADDR'];
+
+    if($ip == "127.0.0.1") {
+        die();
+    }
+
     $time = gmdate("Y-m-d H:i:s");
 
     if($sg != false)
