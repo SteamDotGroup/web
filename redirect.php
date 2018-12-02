@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,33 +9,37 @@
 
 <?php
 
+// Required files
 require 'utils.php';
 require './log/logger.php';
 
-$request = $_SERVER['REQUEST_URI'];
+// Set steam group base url
 $sg_base_url = "https://steamcommunity.com/groups/";
 
-//Set arguments
+// Declare request (eg. /home/index.php)
+$request = $_SERVER['REQUEST_URI'];
+
+// Set arguments
 $args = explode('/', $request);
 $option = "redirect";
 
-//Set steamgroup name
+// Set steamgroup name
 $sg = $args[1];
 
 if ($sg == null) {
-    //No steamgroup given => Error
+    // No steamgroup given => Error
     error('No steamgroup set!');
     die();
 }
 
-//Check for options
+// Check for options
 if (count($args) > 2) {
     $option = $args[2];
 }
 
 analytics($sg);
 
-//Set full steamgroup URL
+// Set full steamgroup URL
 $sg_url = $sg_base_url . $sg;
 
 ?>
@@ -57,7 +62,7 @@ $sg_url = $sg_base_url . $sg;
 
 <?php
 
-//Redirect to steamgroup
+// Redirect to steam group
 header("Location: $sg_url");
 die();
 
