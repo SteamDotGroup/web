@@ -17,5 +17,5 @@ function analytics($sg = false)
         $content = "$ip,$time,~\n";
     }
 
-    file_put_contents($file, $content, FILE_APPEND | LOCK_EX);
+    file_put_contents($file, htmlspecialchars($content), FILE_APPEND | LOCK_EX);
 }

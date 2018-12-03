@@ -1,3 +1,5 @@
 <?php
 
-echo ("Error: $_GET[code]");
+$code = htmlspecialchars($_GET['code']);
+
+echo ("Error: $code");

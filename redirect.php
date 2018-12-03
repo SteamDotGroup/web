@@ -42,6 +42,8 @@ analytics($sg);
 // Set full steamgroup URL
 $sg_url = $sg_base_url . $sg;
 
+$sg_url = htmlspecialchars($sg_url);
+
 ?>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
