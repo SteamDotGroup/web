@@ -1,3 +1,5 @@
+# Contributing
+
 ## Bug report
 
 When you find a bug or any other behavior that you think isn't right, you can report that to us and the community.
