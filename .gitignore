@@ -3,3 +3,6 @@ google*
 
 # Ignore well-known folder
 *.well-known
+
+# Ignore Visual Studio Code Files
+.vscode
