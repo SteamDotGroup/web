@@ -23,7 +23,7 @@ When you find a bug or any other behavior that you think isn't right, you can re
 
 _To submit a bug report you can open a [Issue](https://github.com/SteamDotGroup/web/issues/new)_
 
-- Prefix the issue with `bug:`
+- Prefix the issue with `Bug:`
 - Use the issue template `Bug report`
 - [x] Check that the bug is not already reported: [Issues](https://github.com/SteamDotGroup/web/issues)
 - [x] Check that there is no fix already: [Pull requests](https://github.com/SteamDotGroup/web/pulls)
@@ -39,7 +39,7 @@ When you fixed a bug in your local fork of this repository, you are welcome to s
 
 _To submit a bug fix you can open a [Pull request](https://github.com/SteamDotGroup/web/pulls)_
 
-- Prefix the pull request with `fix:`
+- Prefix the pull request with `Fix:`
 - Fill the pull request template
 - [x] Check that there is no fix already: [Pull requests](https://github.com/SteamDotGroup/web/pulls)
 
@@ -51,7 +51,7 @@ We would love to hear feature requests!
 
 #### As issue
 
-- Prefix the issue with `feat:`
+- Prefix the issue with `Feat:`
 - Use the issue template `Feature request`
 - Shortly explain what your feature is about
 - Describe why your feature idea is useful
@@ -61,7 +61,7 @@ We would love to hear feature requests!
 
 #### As pull request
 
-- Prefix the pull request with `feat:`
+- Prefix the pull request with `Feat:`
 - Shortly explain what your feature is about
 - Describe why your feature idea is useful
 - Give a detailed description of:
