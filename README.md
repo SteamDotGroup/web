@@ -2,7 +2,7 @@
 
 > Shortlinks for steamgroups.
 
-## Usage
+## :clipboard: Usage
 
 Your steamgroup URL should look like this:
 
@@ -15,11 +15,11 @@ You can change that to:
 That's it!  
 The shortener will automatically redirect you to your steamgroup!
 
-## Bug report
+## :warning: Bug report
 
 When you find a bug or any other behavior that you think isn't right, you can report that to us and the community.
 
-### Submitting a bug report
+### :rotating_light: Submitting a bug report
 
 _To submit a bug report you can open a [Issue](https://github.com/SteamDotGroup/web/issues/new)_
 
@@ -29,13 +29,13 @@ _To submit a bug report you can open a [Issue](https://github.com/SteamDotGroup/
 - [x] Check that there is no fix already: [Pull requests](https://github.com/SteamDotGroup/web/pulls)
 - [x] Make sure that the bug is not caused by yourself or your browser settings.
 
-## Bug fix
+## :wrench: Bug fix
 
 When you fixed a bug in your local fork of this repository, you are welcome to submit it into the master branch here.  
 [Tutorial: Creating a pull request (offical GitHub docs)](https://help.github.com/articles/creating-a-pull-request/)  
 [Tutorial: Comitting (readthedocs.io)](https://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/git.html)
 
-### Submitting a bug fix
+### :love_letter: Submitting a bug fix
 
 _To submit a bug fix you can open a [Pull request](https://github.com/SteamDotGroup/web/pulls)_
 
@@ -43,7 +43,7 @@ _To submit a bug fix you can open a [Pull request](https://github.com/SteamDotGr
 - Fill the pull request template
 - [x] Check that there is no fix already: [Pull requests](https://github.com/SteamDotGroup/web/pulls)
 
-## Feature requests
+## :bulb: Feature requests
 
 We would love to hear feature requests!
 
