@@ -1,1 +1,95 @@
-#particles-js{background:#6819e8;background:-moz-linear-gradient(left,#6819e8 0,#7437d0 35%,#615fde 68%,#6980f2 100%);background:-webkit-linear-gradient(left,#6819e8 0,#7437d0 35%,#615fde 68%,#6980f2 100%);background:linear-gradient(to right,#6819e8 0,#7437d0 35%,#615fde 68%,#6980f2 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6819e8', endColorstr='#6980f2', GradientType=1);height:100%;position:absolute;width:100%}.arrow-scroll-indicator{color:rgba(255,255,255,.6);font-size:10px}.center-vertically{display:table-cell;height:100%;vertical-align:middle}.center-vertically-holder{display:table;height:100%}.fa.so-ico{font-size:25px;width:45px}.jumbotron.jumbotron-main{color:#fff;font-family:Roboto,sans-serif;height:100%;margin:0;padding-bottom:0;padding-top:0;position:relative;width:100%}.jumbotron.jumbotron-main a{color:#fff}.jumbotron.jumbotron-main hr{-moz-border-bottom-colors:none;-moz-border-left-colors:none;-moz-border-right-colors:none;-moz-border-top-colors:none;border-color:rgba(255,255,255,.35);border-image:none;border-style:dotted none;border-width:1px 0;clear:both;height:4px;position:relative;text-align:center;width:49px}.loading-icon{-ms-align-items:center;-webkit-align-items:center;-webkit-justify-content:center;align-items:center;background-color:#f4f4f4;display:-ms-flex;display:-webkit-flex;display:flex;justify-content:center}.loading-icon,body,html{height:100%;min-height:100%}.parallax-window{background:0 0}.scroll-indicator{display:inline-block;padding-top:6px;width:50px}body{margin-top:20px;overflow:hidden}html{-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}i.fa.fa-spinner.fa-spin.fa-5x.fa-fw{color:#6a6a6a}
+#particles-js {
+  background: #6819e8;
+  background: -moz-linear-gradient(left, #6819e8 0, #7437d0 35%, #615fde 68%, #6980f2 100%);
+  background: -webkit-linear-gradient(left, #6819e8 0, #7437d0 35%, #615fde 68%, #6980f2 100%);
+  background: linear-gradient(to right, #6819e8 0, #7437d0 35%, #615fde 68%, #6980f2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6819e8', endColorstr='#6980f2', GradientType=1);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.arrow-scroll-indicator {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 10px;
+}
+.center-vertically {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+.center-vertically-holder {
+  display: table;
+  height: 100%;
+}
+.fa.so-ico {
+  font-size: 25px;
+  width: 45px;
+}
+.jumbotron.jumbotron-main {
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+  position: relative;
+  width: 100%;
+}
+.jumbotron.jumbotron-main a {
+  color: #fff;
+}
+.jumbotron.jumbotron-main hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: rgba(255, 255, 255, 0.35);
+  border-image: none;
+  border-style: dotted none;
+  border-width: 1px 0;
+  clear: both;
+  height: 4px;
+  position: relative;
+  text-align: center;
+  width: 49px;
+}
+.loading-icon {
+  -ms-align-items: center;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+.loading-icon,
+body,
+html {
+  height: 100%;
+  min-height: 100%;
+}
+.parallax-window {
+  background: 0 0;
+}
+.scroll-indicator {
+  display: inline-block;
+  padding-top: 6px;
+  width: 50px;
+}
+body {
+  margin-top: 20px;
+  overflow: hidden;
+}
+html {
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+i.fa.fa-spinner.fa-spin.fa-5x.fa-fw {
+  color: #6a6a6a;
+}
